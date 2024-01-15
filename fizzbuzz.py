@@ -1,5 +1,5 @@
-def print_buzz():
-    if i % 5 == 0:
+def print_buzz(num):
+    if num % 5 == 0:
         return "buzz"
           
 def print_fizzbuzz(num):
@@ -10,6 +10,6 @@ def print_fizzbuzz(num):
 if __name__ == '__main__':
     for i in range(1,21):
         if i % 15 == 0:
-            print(print_fizzbuzz())
+            print(print_fizzbuzz(i))
         elif i % 5 == 0:
-            print(print_buzz())
+            print(print_buzz(i))
