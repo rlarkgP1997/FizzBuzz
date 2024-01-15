@@ -1,4 +1,4 @@
-def fizz(i):
+def print_fizz(i):
 	if  i%3 == 0:
 		print('fizz')
 	else:
